@@ -35,8 +35,8 @@ namespace gazebo
   /*
    * Define joint names.
    */
-  static const std::string L_SUS_JNT = "left_diff_unit_jnt";
-  static const std::string R_SUS_JNT = "right_diff_unit_jnt";
+  static const std::string L_SUS_JNT = "left_diff_unit_joint";
+  static const std::string R_SUS_JNT = "right_diff_unit_joint";
 
   class WarthogSuspensionPlugin : public ModelPlugin
   {
