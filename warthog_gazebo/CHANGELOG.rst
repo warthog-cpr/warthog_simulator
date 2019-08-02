@@ -2,8 +2,8 @@
 Changelog for package warthog_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2019-08-02)
+------------------
 * [warthog_gazebo] Updated for Gazebo 9.
 * Contributors: Tony Baltovski
 
