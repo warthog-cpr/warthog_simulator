@@ -2,8 +2,8 @@
 Changelog for package warthog_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2019-08-02)
+------------------
 * Set a blank default world
 * Re added world selection in gazebo launch
 * Removed unnecessary laser argument in world launch
