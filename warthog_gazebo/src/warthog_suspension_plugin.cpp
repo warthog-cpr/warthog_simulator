@@ -101,8 +101,8 @@ namespace gazebo
   void applySuspension(double kf, double bf)
   {
     // Get the displacement and velocity of the left and right suspensions
-    double l_d = suspension_jnts_["left"]->GetAngle(0).Radian();
-    double r_d = suspension_jnts_["right"]->GetAngle(0).Radian();
+    double l_d = suspension_jnts_["left"]->Position();
+    double r_d = suspension_jnts_["right"]->Position();
 
     double l_v = suspension_jnts_["left"]->GetVelocity(0);
     double r_v = suspension_jnts_["right"]->GetVelocity(0);
