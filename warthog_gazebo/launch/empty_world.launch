@@ -3,7 +3,7 @@
   <arg name="use_sim_time" default="true" />
   <arg name="gui" default="true" />
   <arg name="headless" default="false" />
-  <arg name="world_name" default="$(find warthog_gazebo)/worlds/warthog_playpen.world" />
+  <arg name="world_name" default="worlds/empty.world" />
 
   <!-- Launch Gazebo with the specified world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -14,7 +14,8 @@
     <arg name="world_name" value="$(arg world_name)" />
   </include>
 
-  <!-- Add a single Moose robot -->
-  <include file="$(find warthog_gazebo)/launch/warthog_sim.launch" />
+  <!-- Add a single Warthog robot -->
+  <include file="$(find warthog_gazebo)/launch/warthog_sim.launch">
+  </include>
 
 </launch>
