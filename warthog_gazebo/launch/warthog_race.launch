@@ -15,6 +15,6 @@
   </include>
 
   <!-- Add a single Moose robot -->
-  <include file="$(find warthog_gazebo)/launch/warthog_sim.launch" />
+  <include file="$(find warthog_gazebo)/launch/spawn_warthog.launch" />
 
 </launch>
