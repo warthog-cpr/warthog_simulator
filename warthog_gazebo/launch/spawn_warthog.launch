@@ -6,6 +6,7 @@
   <arg name="x" default="0" />
   <arg name="y" default="0" />
   <arg name="z" default="1" />
+  <arg name="yaw" default="0" />
 
   <!-- Load Warthog's description, controllers, and teleop nodes. -->
   <include file="$(find warthog_description)/launch/description.launch">
@@ -18,5 +19,5 @@
 
   <!-- Spawn Warthog -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
-	      args="-urdf -model warthog -param robot_description -x $(arg x) -y $(arg y) -z $(arg z)" />
+	      args="-urdf -model warthog -param robot_description -x $(arg x) -y $(arg y) -z $(arg z) -R 0 -P 0 -Y $(arg yaw)" />
 </launch>
