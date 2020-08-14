@@ -2,6 +2,9 @@
 Changelog for package warthog_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.2.0 (2019-08-02)
 ------------------
 
