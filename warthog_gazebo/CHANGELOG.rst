@@ -2,6 +2,13 @@
 Changelog for package warthog_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add yaw to the arguments for spawn_warthog
+* Moved spawning into a specific launch, so this is more portable to other packages
+* Include the same playpen world that we use with the Moose & use it as the warthog_world's map.  Add additional launch files for the race world & empty world
+* Contributors: Chris I-B, Chris Iverach-Brereton, Dave Niewinski
+
 0.1.0 (2019-08-02)
 ------------------
 * Set a blank default world
