@@ -15,7 +15,9 @@
   <!-- joint_state_publisher is needed to pushish the suspension joints. -->
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
   <include file="$(find warthog_control)/launch/control.launch" />
-  <include file="$(find warthog_control)/launch/teleop.launch" />
+  <include file="$(find warthog_control)/launch/teleop.launch">
+    <arg name="enable_joy" value="1" />
+  </include>
 
   <!-- Spawn Warthog -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
